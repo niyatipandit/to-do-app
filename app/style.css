@@ -1,0 +1,17 @@
+body {
+    font-family: monospace;
+}
+.myHeader{
+    background-color:darkseagreen;
+    color:black;
+    text-align: center;
+}
+.addBt{
+    font-size: 12px;
+    color:darkslategrey;
+    border-radius: 0;
+}
+.addTodo{
+    width: 25%;
+    height:40%
+}
