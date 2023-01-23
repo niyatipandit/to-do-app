@@ -1,17 +1,20 @@
+/* Lear about flex and grid */
+
+
 body {
     font-family: monospace;
 }
-.myHeader{
-    background-color:darkseagreen;
-    color:black;
-    text-align: center;
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
 }
-.addBt{
-    font-size: 12px;
-    color:darkslategrey;
-    border-radius: 0;
+.todoform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.addTodo{
-    width: 25%;
-    height:40%
+.todolist{
+
 }

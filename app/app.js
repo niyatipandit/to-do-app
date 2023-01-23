@@ -1,4 +1,4 @@
-function greet(){
+function addToDo(){
     var table = document.getElementById("to-do-table");
     var todo = document.getElementById('to-do-item').value;
 

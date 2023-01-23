@@ -5,20 +5,20 @@
        
      </head>
     <body>
-        
-        <div id="myDiv" class="myHeader">
-           
-            <h1>TO-DO App</h1>
-            <h2>Description: Simple Javascript and HTML app</h2>
-            <input type="text" id="to-do-item" placeholder="To-Do"/>
-            <button id="add" onclick="greet('bubu')">ADD</button>
-        </div>
-        <div>
-            <table border="1" id="to-do-table">
-                <thead>
-                    <th>Item</th>
-                </thead>
-            </table>
+        <div class="container">
+            <div class="todoform">
+                <h1>TO-DO App</h1>
+                <h2>Description: Simple Javascript and HTML app</h2>
+                <input type="text" id="to-do-item" placeholder="To-Do"/>
+                <button id="add" onclick="addToDo()">ADD</button>
+            </div>
+            <div class="todolist">
+                <table border="1" id="to-do-table">
+                    <thead>
+                        <th>Item</th>
+                    </thead>
+                </table>
+            </div>
         </div>
    </body>
 </html>
